@@ -11,7 +11,7 @@
   (insert_after [n d])
   (delete [n])
   (reverse [])
-  (veclist [])
+  (vectorise [])
   (printlist [])
   (size [])
   (get [n]))
@@ -42,7 +42,7 @@
 
   (printlist
     [this]
-    (println (join "->" (.veclist this))))
+    (println (join "->" (.vectorise this))))
 
   (append
     [this data]
