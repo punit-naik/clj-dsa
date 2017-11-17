@@ -1,4 +1,4 @@
-(ns clj-dsa.linked-list.singly-linked-list
+(ns clj-dsa.data-structures.linked-list.singly-linked-list
   (:require [clojure.string :refer [join]]))
 
 (definterface INode
