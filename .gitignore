@@ -1,0 +1,8 @@
+.idea/
+target/
+.nrepl-port
+.calva
+.clj-kondo
+.lsp
+.lein-failures
+.lein-repl-history
